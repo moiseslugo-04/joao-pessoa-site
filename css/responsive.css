@@ -1,0 +1,97 @@
+@media (max-width: 760px) {
+  .container {
+    width: min(100% - 32px, 520px);
+  }
+
+  .navigation-menu,
+  .header-cta {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+    margin-left: auto;
+    margin-right: 12px;
+  }
+
+  .navigation-menu.is-open {
+    position: absolute;
+    top: 70px;
+    left: 16px;
+    right: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+    background: var(--dark);
+    color: #fff;
+  }
+
+  .dark-navigation.is-open {
+    color: #fff;
+  }
+
+  .hero-section {
+    min-height: 650px;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(3.5rem, 18vw, 5rem);
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section {
+    padding: 80px 0;
+  }
+
+  .feature-grid,
+  .listing-grid,
+  .split-section {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-grid {
+    gap: 35px;
+  }
+
+  .split-image {
+    min-height: 330px;
+  }
+
+  .split-copy {
+    padding: 70px 24px;
+  }
+
+  .footer-inner {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding-bottom: 35px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .page-hero {
+    padding: 130px 0 65px;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(3rem, 13vw, 5rem);
+  }
+
+  .listing-section {
+    padding-top: 55px;
+  }
+
+  .destination-card img {
+    height: 220px;
+  }
+}
